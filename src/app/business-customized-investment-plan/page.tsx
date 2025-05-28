@@ -20,7 +20,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "These are structured based on the customer’s risk and return expectations.",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Low-risk investment options",
@@ -47,7 +47,7 @@ const allSection = [
       list: [
         "Investment application form",
         "Valid means of identification",
-        "Minimum investment amount (as determined by the bank)" 
+        "Minimum investment amount (as determined by Summit Bank)" 
         
         
       ],
@@ -58,7 +58,7 @@ const allSection = [
       image: "/account/current-2.png",
       list: [
         "Businesses",
-        "professionals"
+        "Professionals"
     ,
     
       ],

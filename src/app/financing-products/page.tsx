@@ -23,7 +23,7 @@ export default function FinancingProducts() {
   const allSection = [
     {
       title: "Cost-Plus Financing (Murabaha)",
-      text: "Need to purchase equipment, vehicles, or inventory? With Murabaha, we buy the asset and sell it to you at a pre-agreed profit margin—transparent, ethical, and interest-free.",
+      text: "Need to purchase equipment, vehicles, or inventory? With Murabaha, we buy the asset and sell it to you at a pre-agreed profit margin; transparent, ethical, and interest-free.",
       image: "/pages-section/murabaha.png",
       reverse: true,
     },
@@ -40,12 +40,12 @@ export default function FinancingProducts() {
     },
     {
       title: "Profit-Sharing Investment (Mudarabah)",
-      text: "Have the idea, but need the funding? You manage, we invest. Profits are shared per our agreement, while you retain operational control.",
+      text: "Have the idea, but need the funding? You manage, We invest. Profits are shared per our agreement, while you retain operational control.",
       image: "/pages-section/profit-sharing.png",
     },
     {
       title: "Manufacturing Financing (Istisna)",
-      text: "For builders, manufacturers, and creators—Summit finances your projects with flexible timelines and structured payments as your goods take shape.",
+      text: "For builders, manufacturers, and creators; Summit finances your projects with flexible timelines and structured payments as your goods take shape.",
       image: "/pages-section/manufacturing-financing.png",
       reverse: true,
     },

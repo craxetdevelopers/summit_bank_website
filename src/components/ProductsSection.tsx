@@ -13,7 +13,7 @@ export default function ProductsSection() {
   const allProducts = [
     {
       heading: "Deposit Products",
-      text: "Enjoy interest-free and profit-sharing deposit accounts designed to align with your values while ensuring financial stability and growth",
+      text: "Enjoy interest-free and profit-sharing deposit accounts designed to align with your values while ensuring financial stability and growth.",
       // image: "/deposit-products.png",
       type: "small",
       link: "/deposit-products",

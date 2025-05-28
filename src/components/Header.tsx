@@ -305,7 +305,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
       link: "#",
       subLinks: [
         {
-          text: "ATMs Location",
+          text: "ATM Location",
           link: "/atms",
         },
         {
@@ -433,7 +433,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
               className="rounded-full"
               alt="cbn"
             />
-            Licensed By Central Bank of Nigeria
+            Licensed by Central Bank of Nigeria
           </a>
           {/* <div className="hidden xl:flex items-center justify-center gap-1 z-20"> */}
             {/* <Framer animation={slideUp(0.45)}>

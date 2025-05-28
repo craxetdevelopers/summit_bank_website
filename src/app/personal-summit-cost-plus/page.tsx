@@ -56,7 +56,7 @@ export default function page() {
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        " Salaried employees, business owners, and professionals",
+        " Salaried employees, Business owners, and Professionals",
         "T&Cs applies",
         
       ],

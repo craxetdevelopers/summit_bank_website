@@ -18,7 +18,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Competitive financing profit rate",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Flexible tenor and payment plan",
@@ -54,8 +54,8 @@ export default function page() {
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "SMEs and registered businesses",
-        "NGOs and non-profit Organizations",
+        "SMEs and Registered businesses",
+        "NGOs and Non-profit Organizations",
         "Government Ministries, Departments and Agencies",
       ],
     },

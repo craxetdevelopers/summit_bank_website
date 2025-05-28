@@ -19,7 +19,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Lease that ends with ownership",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Available for all residential types and vehicle finance",
@@ -49,7 +49,7 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        " Salaried employees, business owners, and professionals",
+        " Salaried employees, Business owners, and Professionals",
         "T&Cs applies",
         
       ],

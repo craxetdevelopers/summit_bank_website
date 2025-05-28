@@ -18,7 +18,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Lease with an option to own at the end of the tenure",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Transparent pricing",
@@ -50,7 +50,7 @@ const allSection = [
       title: "Requirements",
       image: "/account/current-1.png",
       list: [
-        "Business should be registered and in existence for at least 1year",
+        "Business should be registered and in existence for at least 1 year",
         
         
       ],
@@ -60,7 +60,7 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "Business should be registered and in existence for at least 1year"
+        "Business should be registered and in existence for at least 1 year"
         ,
     
       ],

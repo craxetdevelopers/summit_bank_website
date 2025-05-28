@@ -7,25 +7,25 @@ export default function Atms() {
     {
       state: "FCT ABUJA",
       locationType: "Head Office",
-      address: "5 Amal Pepple Street, Off Ameyo",
+      address: "5 Amal Pepple Street, Off Ameyo Adadevoh Way, Jahi, Abuja",
       phone: "+234 (0) 700 700 0005",
     },
     {
       state: "KANO",
       locationType: "Branch Office",
-      address: "France Road Branch - 32-40 Home plus plaza France Road Kano",
+      address: "France Road Branch - 32-40 Home Plus Plaza, France Road, Kano",
       phone: "+234 (0) 700 700 0005",
     },
     {
       state: "KANO",
       locationType: "Branch Office",
-      address: "Bank Road Branch - No 2 Bank Road Kano State",
+      address: "Bank Road Branch - No. 2, Bank Road, Kano State",
       phone: "+234 (0) 700 700 0005",
     },
     {
       state: "LAGOS",
       locationType: "Liaison Office",
-      address: "234 Adeola Odeku Street 3rd Floor, Victoria Island, Lagos.",
+      address: "234 Adeola Odeku Street, 3rd Floor, Victoria Island, Lagos.",
       phone: "+234 (0) 700 700 0005",
     },
   ];
@@ -35,7 +35,7 @@ export default function Atms() {
       <DefaultLayout>
         <SectionHero
           mainClass={"bg-pattern !text-white py-10 rounded-2xl"}
-          title="Atm's Locations"
+          title="Atm Locations"
           subtitle="Summit Bank"
         />
         <div className="">
