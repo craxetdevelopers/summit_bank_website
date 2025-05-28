@@ -20,7 +20,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Access to online & mobile banking",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Unlimited withdrawals and deposits",
@@ -52,8 +52,8 @@ const allSection = [
         "Board resolution",
         "TIN - Tax Identification Number ",
         "BVN - Bank Verification Number",
-        "Valid means of identification (National ID, Int’l Passport, Driver’s License, or Voter’s card)",
-        "Proof of business address (Utility bill or tenancy agreement)",
+        "Valid means of identification (National ID, Int’l Passport, Driver’s License, or Voter’s Card)",
+        "Proof of business address (Utility bill or Tenancy agreement)",
         "Passport photograph",
         
       ],
@@ -63,7 +63,7 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "SMEs and registered businesses"
+        "SMEs and Registered businesses"
         ,
     
       ],

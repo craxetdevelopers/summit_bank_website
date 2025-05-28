@@ -131,7 +131,7 @@ export default function Footer() {
                   width={60}
                   alt="cbn"
                 />
-                Licensed By Central Bank of Nigeria
+                Licensed by Central Bank of Nigeria
               </a>
               <div className="socials flex lg:items-center gap-5">
                 <a href="#">

@@ -8,7 +8,7 @@ export default function Features() {
   const features = [
     {
       title: "Instant Transaction",
-      text: "Make money transfer immediately without complications or delays complications or delays",
+      text: "Make money transfers immediately without complications or delays.",
       image: "/speed.svg",
     },
     {
@@ -18,7 +18,7 @@ export default function Features() {
     },
     {
       title: "Extensive Global Coverage",
-      text: "Access your global network that covers more than 169 countries for your international  transaction",
+      text: "Access our global network that covers more than 169 countries for your international transactions.",
       image: "/world.svg",
     },
   ];

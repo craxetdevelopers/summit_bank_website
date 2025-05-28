@@ -20,7 +20,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Shariah compliant investment alternative to fixed deposit",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Higher returns compared to savings account",
@@ -54,7 +54,7 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "Individuals, salaried earners and professionals",
+        "Individuals, Salaried earners and Professionals",
         
       ],
     },

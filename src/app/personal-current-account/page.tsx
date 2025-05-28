@@ -12,7 +12,7 @@ import React from "react";
 
 export default function page() {
   const heroDetails = {
-    title: "Current Account (Qards)",
+    title: "Current Account (Qard)",
     text: "Bank freely with a Shari'ah-compliant current account that gives you control, convenience, and peace of mind.",
   };
 
@@ -56,7 +56,7 @@ export default function page() {
         "Parents or guardians opening accounts on behalf of minors",
         "Business owners and entrepreneurs",
         "Professionals and salaried individuals",
-        "Students with valid identification",
+        "Students with valid means of identification",
       ],
     },
   ];

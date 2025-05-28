@@ -20,7 +20,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Shariah compliant investment alternative to fixed deposit",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Higher returns compared to savings account",
@@ -52,7 +52,7 @@ const allSection = [
       title: "Requirements",
       image: "/account/current-1.png",
       list: [
-        "Have an existing account with the bank",
+        "Have an existing account with the Bank",
         "Completed investment application form (stating tenor and amount)",
         "Minimum investment amount of N500,000" 
         

@@ -20,7 +20,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Competitive financing profit rate",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Flexible tenor and payment plan",
@@ -59,7 +59,7 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "SMEs and registered businesses"
+        "SMEs and Registered businesses"
         ,
     
       ],

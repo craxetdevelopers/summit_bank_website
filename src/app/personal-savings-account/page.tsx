@@ -13,7 +13,7 @@ import React from "react";
 export default function page() {
   const heroDetails = {
     title: "Savings Accounts (Qard)",
-    text: "Bank freely with a Shari'ah-compliant current account that gives you control, convenience, and peace of mind.",
+    text: "Bank freely with a Shari'ah-compliant savings account that gives you control, convenience, and peace of mind.",
   };
 
   const allFeatures = [
@@ -26,8 +26,8 @@ export default function page() {
       text: "Enjoy true financial freedom with zero minimum balance requirements and no hidden restrictions.",
     },
     {
-      title: "Cheque Book & Debit Card",
-      text: "Access your funds easily with our Shari'ah-compliant debit card and personalized cheque book.",
+      title: "Debit Card",
+      text: "Access your funds easily with our Shari'ah-compliant debit card and via our intuitive web and mobile applications.",
     },
     {
       title: "Fund Transfers & Bill Payments",
@@ -43,7 +43,7 @@ export default function page() {
         "Completed account opening form",
         "Bank Verification Number (BVN)",
         "Valid means of identification (National ID, Passport, Driver's License, or Voter's card)",
-        " Proof of address (Utility bill or tenancy agreement)",
+        " Proof of address (Utility bill or Tenancy agreement)",
         "Passport photograph",
       ],
       reverse: true,
@@ -55,8 +55,8 @@ export default function page() {
         " Individuals aged 18 and above",
         "Parents or guardians opening accounts on behalf of minors",
         "Business owners and entrepreneurs",
-        "Professionals and salaried individuals",
-        "Students with valid identification",
+        "Professionals and Salaried individuals",
+        "Students with valid means of identification",
       ],
     },
   ];

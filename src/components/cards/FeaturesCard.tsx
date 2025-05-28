@@ -20,7 +20,8 @@ export default function FeaturesCard({
             index ==0 ? "/account/mobile-icon.svg": 
             index ==1 ? "/account/balance-icon.svg" :
             index ==2 ? "/account/debit-card.svg" :
-            index ==3 ? "/account/funds-icon.svg" : ""
+            index ==3 ? "/account/funds-icon.svg" : 
+            "/account/mobile-icon.svg"
           }
           height={40}
           width={40}

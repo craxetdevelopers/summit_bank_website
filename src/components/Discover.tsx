@@ -27,9 +27,9 @@ export default function Discover() {
             </p>
           </Framer>
           <div className="pt-4">
-            <Framer animation={fadeIn("up", 0.9)}>
-              <Button text="" buttonFn={handleApply} />
-            </Framer>
+            {/* <Framer animation={fadeIn("up", 0.9)}> */}
+              {/* <Button text="" buttonFn={handleApply} /> */}
+            {/* </Framer> */}
           </div>
         </div>
       </div>

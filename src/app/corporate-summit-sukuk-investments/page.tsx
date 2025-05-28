@@ -20,7 +20,7 @@ export default function page() {
   const allFeatures = [
     {
       title: "Shariah-compliant bonds with stable returns",
-      text: "manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
+      text: "Manage your money anytime, anywhere with our intuitive mobile app and online banking platform.",
     },
     {
       title: "Low-risk investment options",

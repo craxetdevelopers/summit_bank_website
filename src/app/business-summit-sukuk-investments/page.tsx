@@ -58,7 +58,7 @@ const allSection = [
       image: "/account/current-2.png",
       list: [
         "Businesses",
-        "professionals",
+        "Professionals",
     
       ],
     },

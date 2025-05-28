@@ -13,7 +13,7 @@ import React from "react";
 export default function page() {
   const heroDetails = {
     title: "Savings Account (Mudarabah)",
-    text: "Bank freely with a Shari'ah-compliant current account that gives you control, convenience, and peace of mind.",
+    text: "Bank freely with a Shari'ah-compliant savings account that gives you control, convenience, and peace of mind.",
   };
 
   const allFeatures = [
@@ -27,7 +27,7 @@ export default function page() {
     },
     {
       title: "Free monthly e-statements",
-      text: "Access your funds easily with our Shari'ah-compliant debit card and personalized cheque book.",
+      text: "Access your funds easily with our Shari'ah-compliant debit card, our intuitive web and mobile applications.",
     },
     {
       title: "Secure online and mobile banking",
@@ -40,10 +40,10 @@ export default function page() {
       title: "What You'll Need",
       image: "/account/current-1.png",
       list: [
-        "Completed account opening form",
+        "Completed Account opening form",
         "Bank Verification Number (BVN)",
-        "Valid means of identification (National ID, Passport, Driver's License, or Voter's card)",
-        " Proof of address (Utility bill or tenancy agreement)",
+        "Valid means of identification (National ID, Passport, Driver's License, or Voter's Card)",
+        " Proof of address (Utility bill or Tenancy agreement)",
         "Passport photograph",
       ],
       reverse: true,
@@ -55,8 +55,8 @@ export default function page() {
         " Individuals aged 18 and above",
         "Parents or guardians opening accounts on behalf of minors",
         "Business owners and entrepreneurs",
-        "Professionals and salaried individuals",
-        "Students with valid identification",
+        "Professionals and Salaried individuals",
+        "Students with valid means of identification",
       ],
     },
   ];

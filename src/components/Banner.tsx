@@ -16,13 +16,13 @@ export default function Banner() {
           Wherever You Go, We’ve Got You Covered
         </h2>
       </Framer>
-      <Framer animation={slideUp(0.6)}>
+      {/* <Framer animation={slideUp(0.6)}>
         <Button
           text=""
           buttonFn={handleApply}
           custom={" !bg-white mt-5  relative z-10"}
         />
-      </Framer>
+      </Framer> */}
       <Image
         className=" absolute bottom-0 object-cover md:object-contain w-full h-full left-0 z-0"
         src="/card-bg.png"
