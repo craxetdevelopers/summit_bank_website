@@ -7,6 +7,7 @@ import GenericSection from "@/components/section/GenericSection";
 // import { Testimonials } from "@/components/testimonials/Testimonials";
 import React from "react";
 
+
 export default function DigitalAndAlternativeBanking() {
   const heroData = {
     title: "Ethical Banking—Now Smarter, Simpler, and Digital",
