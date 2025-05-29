@@ -11,8 +11,8 @@ export default function GenericHero({
   text,
   subtitle,
   image,
-  buttonText,
-  buttonFn,
+  // buttonText,
+  // buttonFn,
 }: GenericHeroInterface) {
   return (
     <div className="mt-25 lg:mt-[120px]">
@@ -39,7 +39,7 @@ export default function GenericHero({
             <Framer animation={slideUp(0.5)}>
               <p className=" lg:!text-2xl !text-gray-300">{text}</p>
             </Framer>
-            <Framer animation={slideUp(0.8)}>
+            {/* <Framer animation={slideUp(0.8)}>
               <Button
                 type="primary"
                 text={buttonText}
@@ -48,7 +48,7 @@ export default function GenericHero({
               >
                 <ArrowRight size={20} />
               </Button>
-            </Framer>
+            </Framer> */}
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Faq from "@/components/faq/Faq";
 import GenericHero from "@/components/generalHero/GenericHero";
 import DefaultLayout from "@/components/layout/DefaultLayout";
 import GenericSection from "@/components/section/GenericSection";
-import { Testimonials } from "@/components/testimonials/Testimonials";
+// import { Testimonials } from "@/components/testimonials/Testimonials";
 import React from "react";
 
 export default function DigitalAndAlternativeBanking() {
@@ -13,12 +13,12 @@ export default function DigitalAndAlternativeBanking() {
     text: "Summit Bank’s Digital Banking blends Shariah-compliant tools with innovation for easy, ethical financial management.",
     image: "/pages-hero/ethical-banking-bg.png",
     subtitle: "Digital & Alternative Banking Solutions",
-    buttonText: "Get Started",
+    // buttonText: "Get Started",
   };
 
-  const getStarted = () => {
-    console.log("Get Started");
-  };
+  // const getStarted = () => {
+  //   console.log("Get Started");
+  // };
 
   const allSection = [
     {
@@ -42,8 +42,8 @@ export default function DigitalAndAlternativeBanking() {
           title={heroData?.title}
           text={heroData?.text}
           subtitle={heroData?.subtitle}
-          buttonText={heroData?.buttonText}
-          buttonFn={getStarted}
+          // buttonText={heroData?.buttonText}
+          // buttonFn={getStarted}
         />
         {allSection?.map((item, index) => (
           <GenericSection
