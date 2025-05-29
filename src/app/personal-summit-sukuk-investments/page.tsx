@@ -54,7 +54,8 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "Individuals, Salaried earners and Professionals"
+        "Individuals, Salary earners and Professionals",
+        "T&Cs apply"
         ,
     
       ],

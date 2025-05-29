@@ -13,7 +13,7 @@ export default function Features() {
     },
     {
       title: "Guaranteed Security",
-      text: "Protect your financial information with our advanced security protocols.",
+      text: "Protect your financial information with our digitally advanced security.",
       image: "/secure.svg",
     },
     {

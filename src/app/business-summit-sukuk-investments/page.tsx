@@ -59,6 +59,7 @@ const allSection = [
       list: [
         "Businesses",
         "Professionals",
+        "T&Cs apply"
     
       ],
     },

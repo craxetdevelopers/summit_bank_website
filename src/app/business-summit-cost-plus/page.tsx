@@ -59,7 +59,8 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "SMEs and Registered businesses"
+        "SMEs and Registered businesses",
+        "T&Cs apply"
         ,
     
       ],

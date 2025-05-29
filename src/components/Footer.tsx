@@ -134,7 +134,7 @@ export default function Footer() {
                 Licensed by Central Bank of Nigeria
               </a>
               <div className="socials flex lg:items-center gap-5">
-                <a href="#">
+                <a href="https://www.facebook.com/Summitbankng1">
                   <SiFacebook size={20} color="blue" />
                 </a>
                 <a

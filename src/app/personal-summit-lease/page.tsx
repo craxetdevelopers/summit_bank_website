@@ -49,8 +49,8 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        " Salaried employees, Business owners, and Professionals",
-        "T&Cs applies",
+        "Salaried employees, Business owners, and Professionals",
+        "T&Cs apply",
         
       ],
     },

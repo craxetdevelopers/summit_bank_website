@@ -20,7 +20,7 @@ export default function HeroCarousel() {
     {
       id: 1,
       title: "Partnership",
-      text: "Partnership is our core. We don’t serve customers — we stand with people, supporting their goals every step of the way.",
+      text: "Partnership is at our core. We don’t serve customers, We stand with people. Supporting their goals every step of the way.",
       image: "/carousel/partnership.jpg",
     },
     {
@@ -32,13 +32,13 @@ export default function HeroCarousel() {
     {
       id: 3,
       title: "Reinvention",
-      text: "Grounded in partnership, driven by reinvention — we innovate to elevate our partners and lead the industry forward.",
+      text: "Grounded in partnership, driven by reinvention. We innovate to elevate our partners and lead the industry forward.",
       image: "/carousel/innovation.jpg",
     },
     {
       id: 4,
       title: "Beyond Numbers",
-      text: "Beyond numbers, we build smarter tools, deeper trust, and real impact",
+      text: "Beyond numbers... We build smarter tools, deeper trust, and real impact.",
       image: "/carousel/beyond.jpg",
     },
   ];
