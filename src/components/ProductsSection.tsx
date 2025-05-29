@@ -27,7 +27,7 @@ export default function ProductsSection() {
     },
     {
       heading: "Personal Financing",
-      text: "Access ethical financing solutions that support business growth, asset acquisition, and investments—all without compromising your values.",
+      text: "Access ethical financing solutions that support business growth, asset acquisition, and investments. All without compromising your values.",
       image: "/financing.png",
       type: "small",
       link: "/financing-products",
@@ -42,7 +42,7 @@ export default function ProductsSection() {
     },
     {
       heading: "Digital & Alternative Banking Solutions",
-      text: "Experience the future of banking with digital solutions, blockchain-powered investments, and interest-free credit cards—all designed for modern, ethical banking.",
+      text: "Experience the future of banking with digital solutions, blockchain-powered investments, and interest-free credit cards. All designed for modern, ethical banking.",
       image: "/product/digital-and-alternative-banking-solutions.png",
       type: "medium",
       link: "/digital-and-alternative-banking-solutions",

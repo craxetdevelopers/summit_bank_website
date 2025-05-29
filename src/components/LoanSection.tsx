@@ -32,8 +32,8 @@ export default function FinanceSection() {
           </Framer>
           <Framer animation={slideUp(0.6)}>
             <p>
-              Get up 100 Million instant business finance from Summit App at the
-              best industry rate instant business finance from Summit App at the
+              Get Millions in business finance from Summit Bank at the
+              best industry rate in business finance from Summit Bank at the
               best industry rate.
             </p>
           </Framer>

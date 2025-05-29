@@ -57,6 +57,7 @@ export default function page() {
         "SMEs and Registered businesses",
         "NGOs and Non-profit Organizations",
         "Government Ministries, Departments and Agencies",
+        "T&Cs apply"
       ],
     },
   ];

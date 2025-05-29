@@ -23,13 +23,13 @@ export default function DigitalAndAlternativeBanking() {
   const allSection = [
     {
       title: "Islamic FinTech Solutions",
-      text: "Discover next-gen financial tools rooted in Islamic values. From Shariah-compliant digital banking platforms to ethical crowdfunding and blockchain-based transparency, our FinTech services offer smart, scalable, and fully halal alternatives to conventional finance.",
+      text: "Discover next-generation financial tools rooted in Islamic values. From Shariah-compliant digital banking platforms to ethical crowdfunding and blockchain-based transparency, our FinTech services offer smart, scalable, and fully halal alternatives to conventional finance.",
       image: "/pages-section/fintech-solutions.png",
       reverse: true,
     },
     {
       title: "Islamic Credit Cards (Ujrah-Based)",
-      text: "Enjoy the convenience of a credit card—without the burden of interest. Our Ujrah-based credit cards operate on a transparent, fee-based model that keeps you financially empowered and aligned with Islamic values.",
+      text: "Enjoy the convenience of a credit card, without the burden of interest. Our Ujrah-based credit cards operate on a transparent, fee-based model that keeps you financially empowered and aligned with Islamic values.",
       image: "/pages-section/credit-cards.png",
     },
   ];

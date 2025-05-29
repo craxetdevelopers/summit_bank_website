@@ -29,7 +29,7 @@ export default function TradeAndWorking() {
     },
     {
       title: "Islamic Foreign Exchange (Bai al-Sarf )",
-      text: "Exchange currencies the halal way. Our Islamic FX service enables seamless, interest-free currency transactions for your business—completely free of speculation or uncertainty.",
+      text: "Exchange currencies the halal way. Our Islamic FX service enables seamless, interest-free currency transactions for your business. Completely free of speculation or uncertainty.",
       image: "/pages-section/islamic-exchange.png",
     },
   ];

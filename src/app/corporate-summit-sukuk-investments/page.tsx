@@ -58,6 +58,7 @@ const allSection = [
       image: "/account/current-2.png",
       list: [
         "Businesses, Corporations, NGOs & MDAs.",
+        "T&Cs apply"
     
       ],
     },

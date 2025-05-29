@@ -60,7 +60,8 @@ const allSection = [
         "SMEs and Registered businesses"
         ,
         "Completed investment application form (stating tenor and amount)",
-        "Minimum investment amount of N1,000,000"
+        "Minimum investment amount of N1,000,000",
+        "T&Cs apply"
     
       ],
     },

@@ -305,11 +305,11 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
       link: "#",
       subLinks: [
         {
-          text: "ATM Location",
+          text: "ATM Locations",
           link: "/atms",
         },
         {
-          text: "Branch Location",
+          text: "Branch Locations",
           link: "/branches",
         },
       ],
@@ -323,8 +323,8 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
           link: "/faq",
         },
         {
-          text: "Blogs",
-          link: "#",
+          text: "Blog",
+          link: "/blog",
         },
         {
           text: "Complaints and Enquires",
@@ -340,7 +340,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
         <div className="fixed top-0 left-0 z-50 w-full bg-[var(--secondary-color)] h-[40px]">
           <div className=" flex h-full items-center justify-end main">
             <div className="socials flex lg:items-center gap-5">
-              <a href="#">
+              <a href="https://www.facebook.com/Summitbankng1">
                 <SiFacebook size={20} color="white" />
               </a>
               <a

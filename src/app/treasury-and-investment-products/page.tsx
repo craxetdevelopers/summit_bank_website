@@ -23,7 +23,7 @@ export default function page() {
   const allSection = [
     {
       title: "Islamic Bonds (Sukuk)",
-      text: "Participate in the profits of real, tangible assets. Our Sukuk offerings provide a stable and Shariah-compliant alternative to conventional bonds—giving you consistent returns without interest-based risk.",
+      text: "Participate in the profits of real, tangible assets. Our Sukuk offerings provide a stable and Shariah-compliant alternative to conventional bonds, giving you consistent returns without interest-based risk.",
       image: "/pages-section/sukuk-bg.png",
       reverse: true,
     },
@@ -34,7 +34,7 @@ export default function page() {
     },
     {
         title: "Islamic Money Market Investments (Commodity Murabaha)",
-        text: "Manage your short-term liquidity in a Shariah-compliant way. With Commodity Murabaha, you can access stable returns through real commodity trades—ideal for businesses and individuals seeking risk-averse options.",
+        text: "Manage your short-term liquidity in a Shariah-compliant way. With Commodity Murabaha, you can access stable returns through real commodity trades, ideal for businesses and individuals seeking risk-averse options.",
         image: "/pages-section/money-market.png",
         reverse: true,
       },

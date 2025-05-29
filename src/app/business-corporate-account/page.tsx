@@ -48,7 +48,7 @@ const allSection = [
       image: "/account/current-1.png",
       list: [
         "Completed account opening form",
-        "Complete CAC documents",
+        "Complete CAC documents (Certified True Copy)",
         "Board resolution",
         "TIN - Tax Identification Number ",
         "BVN - Bank Verification Number",
@@ -63,7 +63,8 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "SMEs and Registered businesses"
+        "SMEs and Registered businesses",
+        "T&Cs apply"
         ,
     
       ],

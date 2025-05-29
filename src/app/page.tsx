@@ -12,7 +12,7 @@ import GenericSection from "@/components/section/GenericSection";
 export default function Home() {
   const loanSection = {
     title: "Apply for Summit Instant Facility and Transform your Financial Life!",
-    text: "Get up to 100 Million in instant business finance from Summit App at the best industry rate.",
+    text: "Get up to Millions in business finance from Summit Bank at the best industry rate.",
     button: false,
     buttontext: "",
     image: "/pages-section/loan.png",

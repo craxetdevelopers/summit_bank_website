@@ -42,8 +42,8 @@ export default function page() {
       list: [
         "Completed account opening form",
         "Bank Verification Number (BVN)",
-        "Valid means of identification (National ID, Passport, Driver's License, or Voter's card)",
-        " Proof of address (Utility bill or Tenancy agreement)",
+        "Valid means of identification (National ID, Passport, Driver's License, or Voter's Card)",
+        "Proof of address (Utility bill or Tenancy agreement)",
         "Passport photograph",
       ],
       reverse: true,
@@ -52,11 +52,11 @@ export default function page() {
       title: "Who Can Open a Current Account?",
       image: "/account/current-2.png",
       list: [
-        " Individuals aged 18 and above",
+        "Individuals aged 18 and above",
         "Parents or guardians opening accounts on behalf of minors",
         "Business owners and entrepreneurs",
         "Professionals and Salaried individuals",
-        "Students with valid means of identification",
+        "Students with a valid means of identification",
       ],
     },
   ];

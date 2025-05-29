@@ -47,11 +47,11 @@ export default function page() {
       image: "/account/current-1.png",
       list: [
         "Completed account opening form",
-        "Complete CAC documents",
+        "Complete CAC documents (Certified True Copy)",
         "Board resolution",
         "TIN - Tax Identification Number ",
         "BVN - Bank Verification Number",
-        "Valid means of identification (National ID, Int’l Passport, Driver’s License, or Voter’s card)",
+        "Valid means of identification (National ID, Int’l Passport, Driver’s License, or Voter’s Card)",
         "Proof of business address (Utility bill or tenancy agreement)",
         "Passport photograph",
       ],
@@ -63,7 +63,8 @@ export default function page() {
       list: [
         "SMEs and registered businesses",
         "NGOs and Non-profit Organizations",
-        "Government Ministries, Departments and Agencies"
+        "Government Ministries, Departments and Agencies",
+        "T&Cs apply"
       ],
     },
   ];

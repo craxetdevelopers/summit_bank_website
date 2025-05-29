@@ -47,7 +47,7 @@ export default function page() {
         "Completed financing application form",
         "Proof of steady income (salary slips or business financials)",
         "Valid identification",
-        " Proforma invoice for the asset to be financed",
+        "Proforma invoice for the asset to be financed",
         "Collateral may be required for high-value financing",
       ],
       reverse: true,
@@ -56,8 +56,8 @@ export default function page() {
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        " Salaried employees, Business owners, and Professionals",
-        "T&Cs applies",
+        "Salaried employees, Business owners, and Professionals",
+        "T&Cs apply",
         
       ],
     },

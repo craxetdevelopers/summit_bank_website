@@ -62,7 +62,8 @@ const allSection = [
       title: "Eligibility",
       image: "/account/current-2.png",
       list: [
-        "Business should be registered and in existence for at least 1 year"
+        "Business should be registered and in existence for at least 1 year",
+        "T&Cs apply"
         ,
     
       ],

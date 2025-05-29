@@ -7,19 +7,19 @@ export default function Atms() {
     {
       state: "FCT ABUJA",
       locationType: "Head Office",
-      address: "5 Amal Pepple Street, Off Ameyo Adadevoh Way, Jahi, Abuja",
+      address: "5 Amal Pepple Street, Off Ameyo Adadevoh Way, Jahi, Abuja.",
       phone: "+234 (0) 700 700 0005",
     },
     {
       state: "KANO",
       locationType: "Branch Office",
-      address: "France Road Branch - 32-40 Home Plus Plaza, France Road, Kano",
+      address: "France Road Branch - 32-40 Home Plus Plaza, France Road, Kano.",
       phone: "+234 (0) 700 700 0005",
     },
     {
       state: "KANO",
       locationType: "Branch Office",
-      address: "Bank Road Branch - No. 2, Bank Road, Kano State",
+      address: "Bank Road Branch - No. 2, Bank Road, Kano State.",
       phone: "+234 (0) 700 700 0005",
     },
     {
