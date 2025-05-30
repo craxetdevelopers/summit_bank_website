@@ -426,6 +426,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
               scrollState ? "text-[#898d96]" : "text-[#898d96]"
             } ${searchMenu && "hidden"}`}
           >
+            
             <Image
               src="/logo/central-bank-of-nigeria.png"
               height={30}
@@ -433,7 +434,14 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
               className="rounded-full"
               alt="cbn"
             />
-            Licensed by Central Bank of Nigeria
+            Licensed by the Central Bank of Nigeria
+
+            <Image
+              src="/logo/NIFI.png"
+              height={40}
+              width={40}
+              alt="nifi"
+            />
           </a>
           {/* <div className="hidden xl:flex items-center justify-center gap-1 z-20"> */}
             {/* <Framer animation={slideUp(0.45)}>
@@ -705,7 +713,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
                   className="rounded-full"
                   alt="cbn"
                 />
-                Licensed By Central Bank of Nigeria
+                Licensed By the Central Bank of Nigeria
               </a>
             </div>
           )}

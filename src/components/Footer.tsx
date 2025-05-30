@@ -131,8 +131,18 @@ export default function Footer() {
                   width={60}
                   alt="cbn"
                 />
-                Licensed by Central Bank of Nigeria
-              </a>
+                Licensed by the Central Bank of Nigeria
+                <p></p>
+                 <Image
+                  src="/logo/NDIC.png"
+                  height={60}
+                  width={60}
+                  alt="ndic"
+                  />
+                <p><n> 
+                Insured
+                </n> </p>
+                </a>
               <div className="socials flex lg:items-center gap-5">
                 <a href="https://www.facebook.com/Summitbankng1">
                   <SiFacebook size={20} color="blue" />
