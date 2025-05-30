@@ -139,9 +139,9 @@ export default function Footer() {
                   width={60}
                   alt="ndic"
                   />
-                <p><n> 
+                <p>
                 Insured
-                </n> </p>
+                </p>
                 </a>
               <div className="socials flex lg:items-center gap-5">
                 <a href="https://www.facebook.com/Summitbankng1">

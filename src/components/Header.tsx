@@ -69,15 +69,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
             },
           ],
         },
-        // {
-        //   text: "Careers",
-        //   links: [
-        //     {
-        //       name: "Careers",
-        //       link: "/careers",
-        //     },
-        //   ],
-        // },
+        
         // {
         //   text: "Compliance",
         //   links: [

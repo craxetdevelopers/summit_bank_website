@@ -3,6 +3,6 @@ export interface GenericHeroInterface {
     text: string,
     image: any,
     subtitle?: string,
-    buttonText: string,
-    buttonFn: any,
+    // buttonText: string,
+    // buttonFn: any,
 }
