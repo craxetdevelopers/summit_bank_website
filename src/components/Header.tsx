@@ -61,28 +61,32 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
       link: "/about-us",
       subLinks: [
         {
-          text: "Governance",
+          text: "Summit Bank",
           links: [
             {
-              name: "Summit Bank",
+              name: "Summit Overview",
               link: "/about-us",
             },
+           {
+               name: "Our Board",
+               link: "/board#board",
+           },
           ],
         },
         
-        // {
-        //   text: "Compliance",
-        //   links: [
-        //     {
-        //       name: "Compliance",
-        //       link: "#",
-        //     },
-        //     {
-        //       name: "AML/CFT",
-        //       link: "#",
-        //     },
-        //   ],
-        // },
+        {
+           text: "Careers",
+           links: [
+             {
+               name: "Career Opportunities",
+               link: "#",
+             },
+             {
+               name: "Internships",
+               link: "#",
+             },
+           ],
+         },
 
         // {
         //   text: "Investor Relation",
@@ -343,7 +347,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
                 <BsTwitterX size={20} color="white" />
               </a>
               <a
-                href=" https://www.instagram.com/summitbankng1"
+                href=" https://www.instagram.com/summitbankng"
                 referrerPolicy="no-referrer"
                 target="_blank"
               >
