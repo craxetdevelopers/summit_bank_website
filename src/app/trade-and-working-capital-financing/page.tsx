@@ -42,8 +42,8 @@ export default function TradeAndWorking() {
           title={heroData?.title}
           text={heroData?.text}
           subtitle={heroData?.subtitle}
-          buttonText={heroData?.buttonText}
-          buttonFn={getStarted}
+          // buttonText={heroData?.buttonText}
+          // buttonFn={getStarted}
         />
         {allSection?.map((item, index) => (
           <GenericSection
