@@ -117,7 +117,7 @@ export default function AllProfiles() {
   ));
 
   return (
-    <div className="mt-[-50px]">
+    <div className="mt-[-50px]" id="board">
       <SectionHero
         subtitle={"Meet The Board"}
         customClass={" !text-2xl md:!text-3xl lg:!text-4xl !leading-[1.3]"}

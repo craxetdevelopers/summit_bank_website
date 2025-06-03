@@ -152,26 +152,26 @@ export default function Footer() {
                   referrerPolicy="no-referrer"
                   target="_blank"
                 >
-                  <BsTwitterX size={20} />
+                  <BsTwitterX size={18} />
                 </a>
                 <a
-                  href=" https://www.instagram.com/summitbankng1"
+                  href=" https://www.instagram.com/summitbankng"
                   referrerPolicy="no-referrer"
                   target="_blank"
                 >
-                  <RiInstagramFill size={20} />
+                  <RiInstagramFill size={20} color="Red" />
                 </a>
                 <a href="https://www.linkedin.com/company/summitbankng"
                 referrerPolicy="no-referrer"
                 target="_blank"
                 >
-                  <RiLinkedinBoxFill size={20} color="black" />
+                  <RiLinkedinBoxFill size={20} color="DarkBlue" />
                 </a>
                 <a href="https://www.tiktok.com/@summitbankng"
                 referrerPolicy="no-referrer"
                 target="_blank"
                 >
-                  <RiTiktokFill size={20} color="red" />
+                  <RiTiktokFill size={20} color="black" />
                 </a>
               </div>
             </div>
