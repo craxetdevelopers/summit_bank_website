@@ -66,28 +66,29 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
             {
               name: "Summit Overview",
               link: "/about-us",
+              description: "Our History, Mission, and Values"
             },
-           {
-               name: "Our Board",
-               link: "/board#board",
-           },
-          ],
+            {
+              name: "Our Board",
+              link: "/about-us#board",
+              description: "Leadership and Governance"
+            }
+          ]
         },
         
         {
-           text: "Careers",
-           links: [
-             {
-               name: "Career Opportunities",
-               link: "#",
-             },
-             {
-               name: "Internships",
-               link: "#",
-             },
-           ],
-         },
-
+          text: "Careers",
+          links: [
+            {
+              name: "Career Opportunities",
+              link: "#",
+            },
+            {
+              name: "Internships",
+              link: "#",
+            },
+          ],
+        },
         // {
         //   text: "Investor Relation",
         //   links: [

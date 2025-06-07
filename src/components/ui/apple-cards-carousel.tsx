@@ -225,13 +225,16 @@ export const Card = ({
               </button>
               <div className="grid relative lg:grid-cols-[3fr_8fr] gap-3">
                 <div className="">
-                  <motion.img
-                    src={card.src}
-                    className="h-[240px] w-[300px] object-cover rounded-xl"
-                    height={1000}
-                    width={1000}
-                    alt="profile"
-                  />
+                  <motion.div className="relative h-[240px] w-[300px]">
+                    <Image
+                      src={card.src}
+                      className="object-cover rounded-xl"
+                      fill
+                      sizes="(max-width: 300px) 100vw, 300px"
+                      priority
+                      alt={card.title}
+                    />
+                  </motion.div>
                   <motion.p
                     layoutId={layout ? `title-${card.title}` : undefined}
                     className="mt-4 !text-2xl font-semibold  md:!text-[30px] !leading-9"
