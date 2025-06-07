@@ -67,10 +67,26 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
               name: "Summit Overview",
               link: "/about-us",
             },
-           {
-               name: "Our Board",
-               link: "/board#board",
-           },
+            {
+              name: "Our History",
+              link: "/about-us#history",
+            },
+            {
+              name: "Our Mission",
+              link: "/about-us#mission",
+            },
+            {
+              name: "Summit Values",
+              link: "/about-us#values",
+            },
+            {
+              name: "Our Vision",
+              link: "/about-us#vision",
+            },
+            {
+              name: "Our Board",
+              link: "/about-us#board",
+            },
           ],
         },
         
