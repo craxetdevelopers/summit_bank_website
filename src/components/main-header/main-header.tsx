@@ -54,32 +54,20 @@ export function MainHeader({ menu }: { menu: Record<string, any> }) {
                               </div>
                               {subItem?.links?.map(
                                 (res: any, index: number) => (
-                                  <div className="" key={index}>
-                                    {item?.links && item?.links?.length > 0 ? (
-                                      <div className="">
-                                        {item?.links?.map(
-                                          (res: any, i: number) => (
-                                            <div
-                                              key={i}
-                                            >
-                                              {res.name}
-                                            </div>
-                                          )
-                                        )}
-                                      </div>
-                                    ) : (
-                                      <Link
-                                        href={res?.link}
-                                        className="flex group transition-all duration-300 hover:font-bold items-center gap-2 text-[15px] cursor-pointer 3xl:text-lg "
-                                        key={index}
-                                      >
+                                  <div className="mb-2" key={index}>
+                                    <Link
+                                      href={res?.link}
+                                      className="block"
+                                    >
+                                      <div className="text-[15px] hover:font-bold transition-all duration-300">
                                         {res.name}
-                                        <ArrowRight
-                                          size={20}
-                                          className="group-hover:opacity-100 opacity-0 transition-all duration-300"
-                                        />
-                                      </Link>
-                                    )}
+                                      </div>
+                                      {res.description && (
+                                        <div className="text-[7px] text-gray-500 mt-1">
+                                          {res.description}
+                                        </div>
+                                      )}
+                                    </Link>
                                   </div>
                                 )
                               )}

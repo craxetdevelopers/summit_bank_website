@@ -66,22 +66,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
             {
               name: "Summit Overview",
               link: "/about-us",
-            },
-            {
-              name: "Our History",
-              link: "/about-us#history",
-            },
-            {
-              name: "Our Mission",
-              link: "/about-us#mission",
-            },
-            {
-              name: "Summit Values",
-              link: "/about-us#values",
-            },
-            {
-              name: "Our Vision",
-              link: "/about-us#vision",
+              // description: "Our History, Mission, and Values"
             },
             {
               name: "Our Board",
@@ -91,19 +76,18 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
         },
         
         {
-           text: "Careers",
-           links: [
-             {
-               name: "Career Opportunities",
-               link: "#",
-             },
-             {
-               name: "Internships",
-               link: "#",
-             },
-           ],
-         },
-
+          text: "Careers",
+          links: [
+            {
+              name: "Career Opportunities",
+              link: "#",
+            },
+            {
+              name: "Internships",
+              link: "#",
+            },
+          ],
+        },
         // {
         //   text: "Investor Relation",
         //   links: [
