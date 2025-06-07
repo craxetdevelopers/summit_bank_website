@@ -30,49 +30,31 @@ export function MainHeader({ menu }: { menu: Record<string, any> }) {
                     <NavigationMenuTrigger>{item?.text}</NavigationMenuTrigger>
                     <NavigationMenuContent>
                       <ul className="grid gap-3 p-4  w-full lg:w-[800px] max-w-[900px] lg:grid-cols-[.75fr_1fr]">
-                        {item?.subLinks?.map((subItem: any, index: number) => (
-                          <ListItem
-                            key={index}
-                            href={subItem?.link}
-                            className="space-y-4 "
-                          >
-                            <div className="space-y-5">
-                              <div
-                                className={`text-[15px]  group flex transition-all duration-300  items-center gap-2    3xl:text-lg  leading-none ${
-                                  subItem?.links?.length > 0
-                                    ? "font-semibold"
-                                    : "hover:font-bold cursor-pointer"
-                                }`}
-                              >
-                                {subItem?.text}
-                                {subItem?.links?.length == (0 || undefined) && (
-                                  <ArrowRight
-                                    size={20}
-                                    className="group-hover:opacity-100 opacity-0 transition-all duration-300"
-                                  />
-                                )}
-                              </div>
-                              {subItem?.links?.map(
-                                (res: any, index: number) => (
-                                  <div className="mb-2" key={index}>
+                        {item?.subLinks?.map((column: any, colIndex: number) => (
+                          <li key={colIndex}>
+                            <p className="text-[15px] font-semibold mb-2">{column.text}</p>
+                            <ul className="grid gap-1">
+                              {column?.links?.map((linkItem: any, linkIndex: number) => (
+                                <li key={linkIndex} className="mb-2">
+                                  <NavigationMenuLink asChild>
                                     <Link
-                                      href={res?.link}
-                                      className="block"
+                                      href={linkItem?.link}
+                                      className="flex flex-col p-2 rounded-md hover:bg-gray-100 transition-colors"
                                     >
-                                      <div className="text-[15px] hover:font-bold transition-all duration-300">
-                                        {res.name}
-                                      </div>
-                                      {res.description && (
-                                        <div className="text-[7px] text-gray-500 mt-1">
-                                          {res.description}
-                                        </div>
+                                      <span className="text-base font-medium">
+                                        {linkItem.name}
+                                      </span>
+                                      {linkItem.description && (
+                                        <span className="text-xs text-gray-500 mt-1 font-normal">
+                                          {linkItem.description}
+                                        </span>
                                       )}
                                     </Link>
-                                  </div>
-                                )
-                              )}
-                            </div>
-                          </ListItem>
+                                  </NavigationMenuLink>
+                                </li>
+                              ))}
+                            </ul>
+                          </li>
                         ))}
                       </ul>
                     </NavigationMenuContent>
