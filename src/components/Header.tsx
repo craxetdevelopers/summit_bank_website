@@ -81,11 +81,13 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
           links: [
             {
               name: "Career Opportunities",
-              link: "#",
+              link: "/careers/career-opportunities",
+              description: "Join Our Team"
             },
             {
               name: "Internships",
-              link: "#",
+              link: "/careers/internships",
+              description: "Gain Real-World Experience"
             },
           ],
         },
