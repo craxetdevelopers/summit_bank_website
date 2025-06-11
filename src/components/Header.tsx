@@ -75,17 +75,19 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
             }
           ]
         },
-        
+
         {
           text: "Careers",
           links: [
             {
               name: "Career Opportunities",
-              link: "#",
+              link: "/careers/career-opportunities",
+              description: "Join Our Team"
             },
             {
               name: "Internships",
-              link: "#",
+              link: "/careers/internships",
+              description: "Gain Real-World Experience"
             },
           ],
         },
@@ -302,33 +304,81 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
       link: "#",
       subLinks: [
         {
-          text: "ATM Locations",
-          link: "/atms",
+          text: "",
+          links: [
+            {
+              name: "ATM Locations",
+              link: "/atms",
+            },
+          ]
         },
         {
-          text: "Branch Locations",
-          link: "/branches",
-        },
-      ],
+          text: "",
+          links: [
+            {
+              name: "Branch Locations",
+              link: "/branches",
+            },
+          ]
+        }
+
+      ]
     },
+
     {
       text: "Help & Support",
       link: "#",
       subLinks: [
         {
-          text: "FAQs",
-          link: "/faq",
+          text: "",
+          links: [
+            {
+              name: "FAQs",
+              link: "/faq",
+            },
+          ]
         },
         {
-          text: "Blog",
-          link: "/blog",
+          text: "",
+          links: [
+            {
+              name: "Blog",
+              link: "/blog",
+            },
+          ]
         },
         {
-          text: "Complaints and Enquires",
-          link: "/contact",
-        },
-      ],
+          text: "",
+          links: [
+            {
+              name: "Complaints and Enquires",
+              link: "/contact",
+            },
+          ]
+        }
+
+      ]
     },
+
+
+    // {
+    //   text: "Help & Support",
+    //   link: "#",
+    //   subLinks: [
+    //     {
+    //       text: "FAQs",
+    //       link: "/faq",
+    //     },
+    //     {
+    //       text: "Blog",
+    //       link: "/blog",
+    //     },
+    //     {
+    //       text: "Complaints and Enquires",
+    //       link: "/contact",
+    //     },
+    //   ],
+    // },
   ];
 
   return (
@@ -373,14 +423,12 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
         </div>
       )}
       <div
-        className={` fixed  left-0 w-screen flex items-center justify-center z-50 bg-[var(--primary-color)] ${
-          scrollState && !isOpen ? "top-0" : !scrollState && !isOpen ? 'top-[40px]' : isOpen ? "top-0" : ""
-        }`}
+        className={` fixed  left-0 w-screen flex items-center justify-center z-50 bg-[var(--primary-color)] ${scrollState && !isOpen ? "top-0" : !scrollState && !isOpen ? 'top-[40px]' : isOpen ? "top-0" : ""
+          }`}
       >
         <div
-          className={`main relative  flex items-center justify-between h-[100px] transition-all duration-300 ${
-            scrollState && "!mt-0"
-          }`}
+          className={`main relative  flex items-center justify-between h-[100px] transition-all duration-300 ${scrollState && "!mt-0"
+            }`}
         >
           <Link href="/" className=" z-50">
             <Image
@@ -419,11 +467,10 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
             href="https://www.cbn.gov.ng/supervision/fi.html?id=9892"
             target="_blank"
             referrerPolicy="no-referrer"
-            className={`lg:flex hidden  text-sm items-center gap-2 ${
-              scrollState ? "text-[#898d96]" : "text-[#898d96]"
-            } ${searchMenu && "hidden"}`}
+            className={`lg:flex hidden  text-sm items-center gap-2 ${scrollState ? "text-[#898d96]" : "text-[#898d96]"
+              } ${searchMenu && "hidden"}`}
           >
-            
+
             <Image
               src="/logo/central-bank-of-nigeria.png"
               height={30}
@@ -441,7 +488,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
             />
           </a>
           {/* <div className="hidden xl:flex items-center justify-center gap-1 z-20"> */}
-            {/* <Framer animation={slideUp(0.45)}>
+          {/* <Framer animation={slideUp(0.45)}>
               <Select>
                 <SelectTrigger
                   className={`w-[170px] !bg-secondary-color !text-white  text-base transition-all duration-300 !h-[50px] ${
@@ -457,7 +504,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
               </Select>
 
             </Framer> */}
-            {/* <Framer animation={slideUp(0.7)}>
+          {/* <Framer animation={slideUp(0.7)}>
               <div className="flex items-center">
                 <input
                   type="text"
@@ -493,11 +540,10 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
           {/* </div> */}
 
           <div
-            className={` z-10  rounded-xl bg-[var(--light-blue)]  min-h-[100px] w-full pt-[100px] left-0  h-0 opacity-0 transition-all duration-300  absolute pb-10 ${
-              menuOpen
+            className={` z-10  rounded-xl bg-[var(--light-blue)]  min-h-[100px] w-full pt-[100px] left-0  h-0 opacity-0 transition-all duration-300  absolute pb-10 ${menuOpen
                 ? "top-0 h-fit opacity-100"
                 : "top-menu-exit !opacity-0 !h-0"
-            }`}
+              }`}
             onMouseLeave={closeMenu}
           >
             <div className="w-[680px] h-fit mx-auto">
@@ -518,10 +564,9 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
                     </div>
                   ) : (
                     <Link
-                      className={`text-black flex justify-between items-center gap-3 ${
-                        router === item.link &&
+                      className={`text-black flex justify-between items-center gap-3 ${router === item.link &&
                         "font-bold !text-[var(--secondary-color)]"
-                      }`}
+                        }`}
                       href={item.link}
                       onClick={closeMobileMenu}
                     >
@@ -564,12 +609,10 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
                   <Framer animation={slideUp(index * 0.2)} key={index}>
                     {menu?.subLinks ? (
                       <div
-                        className={`w-fit text-black flex justify-between items-center gap-3 ${
-                          currentMenu?.text === menu.text && "font-bold"
-                        } ${
-                          router === menu.link &&
+                        className={`w-fit text-black flex justify-between items-center gap-3 ${currentMenu?.text === menu.text && "font-bold"
+                          } ${router === menu.link &&
                           "font-bold !text-[var(--secondary-color)] border-b-2 border-b-[var(--secondary-color)]"
-                        }`}
+                          }`}
                         onClick={() => {
                           if ((menu?.subLinks ?? [])?.length > 0) {
                             setCurrentMenu(menu);
@@ -586,12 +629,10 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
                     ) : (
                       <Link
                         href={menu?.link}
-                        className={`w-fit text-black flex justify-between items-center gap-3 ${
-                          currentMenu?.text === menu.text && "font-bold"
-                        } ${
-                          router === menu.link &&
+                        className={`w-fit text-black flex justify-between items-center gap-3 ${currentMenu?.text === menu.text && "font-bold"
+                          } ${router === menu.link &&
                           "font-bold !text-[var(--secondary-color)] border-b-2 border-b-[var(--secondary-color)]"
-                        }`}
+                          }`}
                         onClick={() => {
                           if ((menu?.subLinks ?? [])?.length > 0) {
                             setCurrentMenu(menu);
@@ -628,10 +669,9 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
                                   </div>
                                 ) : (
                                   <Link
-                                    className={`text-black flex justify-between items-center gap-3 ${
-                                      router === item.link &&
+                                    className={`text-black flex justify-between items-center gap-3 ${router === item.link &&
                                       "font-bold !text-[var(--secondary-color)]"
-                                    }`}
+                                      }`}
                                     href={item.link}
                                     onClick={closeMobileMenu}
                                   >
