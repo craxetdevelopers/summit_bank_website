@@ -11,9 +11,9 @@ export default function CareerOpportunitiesPage() {
     <main className="min-h-screen">
       <Header scrollState={false} />
       <GenericHero
+        text="Career Opportunities"
         title="Career Opportunities"
         subtitle="Explore exciting career paths at Summit Bank."
-        breadcumb={["Home", "Careers", "Career Opportunities"]}
         image={"/careers.avif"}
       />
 
