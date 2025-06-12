@@ -15,8 +15,8 @@ export default function page() {
       <div>
         <SectionHero
           mainClass={"!pt-[50px]"}
-          title="Enquire & Complaints"
-          text="Can’t find what you’re looking for? Please contact us and we'll get back to you as soon as possible."
+          title="Enquiries & Complaints"
+          text="Can’t find what you are looking for? Please contact us, and we will get back to you as soon as possible."
         />
         <div className="main lg:!w-[60%] space-y-6 py-10 pb-20">
             <div className="">
