@@ -342,8 +342,8 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
           text: "",
           links: [
             {
-              name: "Blog",
-              link: "/blog",
+              name: "Gallery",
+              link: "/gallery",
             },
           ]
         },
@@ -351,7 +351,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
           text: "",
           links: [
             {
-              name: "Complaints and Enquires",
+              name: "Complaints and Enquiries",
               link: "/contact",
             },
           ]
@@ -374,7 +374,7 @@ export default function Header({ scrollState }: { scrollState: boolean }) {
     //       link: "/blog",
     //     },
     //     {
-    //       text: "Complaints and Enquires",
+    //       text: "Complaints and Enquiries",
     //       link: "/contact",
     //     },
     //   ],
